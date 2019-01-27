@@ -1,0 +1,14 @@
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.deps.json
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.runtimeconfig.json
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.runtimeconfig.dev.json
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.dll
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.pdb
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.csprojAssemblyReference.cache
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.csproj.CoreCompileInputs.cache
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorAssemblyInfo.cache
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorAssemblyInfo.cs
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.AssemblyInfoInputs.cache
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.AssemblyInfo.cs
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorTargetAssemblyInfo.cache
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.dll
+D:\Study\ADO.NET\Core\CoreRepository\First Project\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.pdb
