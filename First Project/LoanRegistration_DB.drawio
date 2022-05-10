@@ -1,4 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T05:49:19.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="pV0jEdul70OIUKeC7zgM" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-10T06:03:32.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="3-a5t1_knGmhy0RHU4yN" version="17.5.0" type="github" pages="2">
+  <diagram id="bET4S2zfxWzaDo0NYC5V" name="Application Settings">
+    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="80" />
+              <mxPoint x="480" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="80" />
+              <mxPoint x="480" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_list_settings&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование листа&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;save_value&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Сохраняется ли по значению&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_list_items&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование листа&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование элемента&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_text&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;td&gt;Текст элемента с мультиязычностью&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parent_list_name&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование родительского листа&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parent_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Родительское значение для элемента&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_group_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование группы элемента&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sort_value&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;td&gt;Порядок сортировки&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry y="160" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_list_first_value&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование листа&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_text&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;td&gt;Текст для первого значения&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry y="40" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_fields&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;control_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Имя контроллера&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;field_name&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Имя поля&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;field_type&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Тип поля&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Обязательное ли поле к заполнению&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;stage&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;td&gt;Уровень заполнения поля&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Если это лист, то наименование листа&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;table_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;column_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Наименование поля в БД&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Наименование описания для поля&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;editable&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Изменяемое ли поле&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;min_length&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;td&gt;Минимальная длина&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;max_length&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;br&gt;&lt;/td&gt;&lt;td&gt;Максимальная длина&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;value_for_test&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Значение для тестов&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;is_list_view&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Является ли поле листом&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry y="360" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-9" target="0ozUVAZaUMMEaTknpCUp-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="200" />
+              <mxPoint x="500" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_label_text&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;control_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Имя контроллера&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_name&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;td&gt;Наименование описания&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_text&lt;br&gt;&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;td&gt;Текст описания на 3х языках&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_dictionary&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;key&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ключ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;value&lt;br&gt;&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;td&gt;Значение по ключу на 3х языках&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ozUVAZaUMMEaTknpCUp-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_params&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;param_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Наименование параметра&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;param_value&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Значение параметра&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="360" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="Request Process" id="2ca16b54-16f6-2749-3443-fa8db7711227">
     <mxGraphModel dx="2878" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -278,63 +335,6 @@
         </mxCell>
         <mxCell id="AsM0og3U_ye3mziQhHW4-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_address_mapping&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id_address&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name_address&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;region_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;district_type_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;district_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;settlement_type_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;settlement_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;locality_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sort_num&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;block_num&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parent_id&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;is_for_save&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="160" y="1560" width="280" height="240" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="bET4S2zfxWzaDo0NYC5V" name="Application Settings">
-    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="440" y="80" />
-              <mxPoint x="440" y="240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-1" target="0ozUVAZaUMMEaTknpCUp-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="680" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="440" y="80" />
-              <mxPoint x="440" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_list_settings&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;save_value&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_list_items&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_text&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parent_list_name&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parent_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_group_value&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sort_value&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="160" y="160" width="240" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_list_first_value&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;item_text&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_fields&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;control_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;field_name&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;field_type&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;stage&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;list_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;table_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;column_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;editable&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;min_length&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;max_length&lt;br&gt;&lt;/td&gt;&lt;td&gt;numeric&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;value_for_test&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;is_list_view&lt;br&gt;&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="160" y="360" width="240" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0ozUVAZaUMMEaTknpCUp-9" target="0ozUVAZaUMMEaTknpCUp-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="200" />
-              <mxPoint x="460" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_program_label_text&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;control_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_name&lt;/td&gt;&lt;td&gt;text&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;label_text&lt;br&gt;&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="480" y="160" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_dictionary&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;key&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;value&lt;br&gt;&lt;/td&gt;&lt;td&gt;json&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="480" y="280" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0ozUVAZaUMMEaTknpCUp-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;lrtb_params&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;param_name&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;param_value&lt;br&gt;&lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="480" y="400" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
